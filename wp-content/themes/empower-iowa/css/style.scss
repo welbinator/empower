@@ -1,0 +1,36 @@
+body {
+  padding-top: 10vh;
+}
+/* utilities */
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navbar-toggler {
+      display: none;
+    }
+    .navbar-nav {
+      list-style: none;
+      display: flex;
+    }
+    #navbarNavDropdown {
+      display: none;
+    }
+  }
+}
